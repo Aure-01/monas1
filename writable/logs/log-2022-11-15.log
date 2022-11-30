@@ -1,0 +1,547 @@
+CRITICAL - 2022-11-15 12:55:39 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 25.
+ 1 APPPATH\Controllers\Usuarios.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 12:58:31 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 25.
+ 1 APPPATH\Controllers\Usuarios.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:01:46 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 25.
+ 1 APPPATH\Controllers\Usuarios.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:04:30 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 25.
+ 1 APPPATH\Controllers\Usuarios.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:11:19 --> Undefined variable $cabecera
+in APPPATH\Views\almohadas\listar.php on line 1.
+ 1 APPPATH\Views\almohadas\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\almohadas\\listar.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\almohadas\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('almohadas/listar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(30): view('almohadas/listar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:12:08 --> Undefined variable $almohada
+in APPPATH\Views\almohadas\listar.php on line 17.
+ 1 APPPATH\Views\almohadas\listar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $almohada', 'APPPATH\\Views\\almohadas\\listar.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\almohadas\\listar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('almohadas/listar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(32): view('almohadas/listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:13:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\listar.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(50): view('usuarios/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:14:40 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\listar.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(50): view('usuarios/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:15:00 --> Call to a member function orderBy() on string
+in APPPATH\Controllers\Usuarios.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:18:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\listar.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(51): view('usuarios/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:21:27 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, 1 given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('1')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('1')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('1')
+ 4 SYSTEMPATH\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('1')
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow('1')
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Usuarios.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:22:32 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, objectarray given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('objectarray')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('objectarray')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('objectarray')
+ 4 SYSTEMPATH\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('objectarray')
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow('objectarray')
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Usuarios.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:22:39 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, objectarray given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('objectarray')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('objectarray')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('objectarray')
+ 4 SYSTEMPATH\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('objectarray')
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow('objectarray')
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Usuarios.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:22:54 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 26.
+ 1 APPPATH\Controllers\Usuarios.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:26:48 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 27.
+ 1 APPPATH\Controllers\Usuarios.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:38:19 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, Myth\Auth\Entities\User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('Myth\\Auth\\Entities\\User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('Myth\\Auth\\Entities\\User')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('Myth\\Auth\\Entities\\User')
+ 4 SYSTEMPATH\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('Myth\\Auth\\Entities\\User')
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow('Myth\\Auth\\Entities\\User')
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Usuarios.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:38:35 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, Myth\Auth\Entities\User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('Myth\\Auth\\Entities\\User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('Myth\\Auth\\Entities\\User')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('Myth\\Auth\\Entities\\User')
+ 4 SYSTEMPATH\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('Myth\\Auth\\Entities\\User')
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow('Myth\\Auth\\Entities\\User')
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Usuarios.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:40:47 --> mysqli_result::fetch_object(): Argument #1 ($class) must be a valid class name, Myth\Auth\Entities\User given
+in SYSTEMPATH\Database\MySQLi\Result.php on line 148.
+ 1 SYSTEMPATH\Database\MySQLi\Result.php(148): mysqli_result->fetch_object('Myth\\Auth\\Entities\\User')
+ 2 SYSTEMPATH\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('Myth\\Auth\\Entities\\User')
+ 3 SYSTEMPATH\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('Myth\\Auth\\Entities\\User')
+ 4 SYSTEMPATH\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('Myth\\Auth\\Entities\\User')
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseResult->getFirstRow('Myth\\Auth\\Entities\\User')
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Usuarios.php(18): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:40:58 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 27.
+ 1 APPPATH\Controllers\Usuarios.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 13:49:01 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Usuarios.php on line 27.
+ 1 APPPATH\Controllers\Usuarios.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Usuarios.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:02:36 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\listar.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(52): view('usuarios/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:12:02 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\listar.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(51): view('usuarios/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:12:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(91): view('usuarios/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:14:02 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\editar.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(91): view('usuarios/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-15 14:14:31 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\monas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\monas\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\monas\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\monas\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\monas\app\Controllers\Almohadas.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\monas\system\CodeIgniter.php(927): App\Controllers\Almohadas->guardar()
+#9 C:\xampp\htdocs\monas\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+#10 C:\xampp\htdocs\monas\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\monas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-15 14:15:32 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\monas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\monas\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\monas\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\monas\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\monas\app\Controllers\Almohadas.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\monas\system\CodeIgniter.php(927): App\Controllers\Almohadas->guardar()
+#9 C:\xampp\htdocs\monas\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+#10 C:\xampp\htdocs\monas\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\monas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-15 14:16:26 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\monas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\monas\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\monas\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\monas\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\monas\app\Controllers\Almohadas.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\monas\system\CodeIgniter.php(927): App\Controllers\Almohadas->guardar()
+#9 C:\xampp\htdocs\monas\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+#10 C:\xampp\htdocs\monas\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\monas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-11-15 14:17:55 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\monas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\monas\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\monas\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\monas\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\monas\app\Controllers\Almohadas.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\monas\system\CodeIgniter.php(927): App\Controllers\Almohadas->guardar()
+#9 C:\xampp\htdocs\monas\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+#10 C:\xampp\htdocs\monas\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\monas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-15 14:18:06 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\editar.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(90): view('usuarios/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-15 14:22:27 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\monas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\monas\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\monas\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\monas\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\monas\app\Controllers\Almohadas.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\monas\system\CodeIgniter.php(927): App\Controllers\Almohadas->guardar()
+#9 C:\xampp\htdocs\monas\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+#10 C:\xampp\htdocs\monas\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\monas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-15 14:27:00 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\editar.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(90): view('usuarios/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->editar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-15 14:27:18 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\monas\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `al...', 0)
+#1 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `al...')
+#2 C:\xampp\htdocs\monas\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `al...')
+#3 C:\xampp\htdocs\monas\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `al...', Array, false)
+#4 C:\xampp\htdocs\monas\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\monas\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\monas\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\monas\app\Controllers\Almohadas.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\monas\system\CodeIgniter.php(927): App\Controllers\Almohadas->guardar()
+#9 C:\xampp\htdocs\monas\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+#10 C:\xampp\htdocs\monas\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\monas\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-15 14:31:32 --> Undefined variable $id
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(90): view('usuarios/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->editar('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:31:45 --> Undefined variable $id
+in APPPATH\Views\usuarios\editar.php on line 21.
+ 1 APPPATH\Views\usuarios\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\usuarios\\editar.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(90): view('usuarios/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->editar('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:34:02 --> Cannot use object of type stdClass as array
+in APPPATH\Views\usuarios\editar.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/editar', [], true)
+ 4 APPPATH\Controllers\Usuarios.php(90): view('usuarios/editar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->editar('4')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:44:12 --> Undefined variable $usuario
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Almohadas.php(12): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:45:20 --> Undefined variable $Usuarios
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Usuarios', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Almohadas.php(12): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:45:57 --> Undefined variable $Usuarios
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Usuarios', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Almohadas.php(82): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:45:58 --> Undefined variable $Usuarios
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Usuarios', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Almohadas.php(82): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:46:09 --> Undefined variable $Usuarios
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Usuarios', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(33): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:46:32 --> Undefined variable $usuarios
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuarios', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(33): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:46:41 --> Undefined variable $usuario
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(33): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:48:05 --> Undefined variable $usuario
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(33): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:49:45 --> Undefined variable $usuario
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(33): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 14:50:22 --> Undefined variable $usuario
+in APPPATH\Views\template\cabecera.php on line 37.
+ 1 APPPATH\Views\template\cabecera.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'APPPATH\\Views\\template\\cabecera.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\cabecera.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 5 APPPATH\Controllers\Usuarios.php(33): view('template/cabecera')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Usuarios->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:23:33 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(337): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Almohadas.php(84): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:23:50 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(337): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Almohadas.php(84): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:23:53 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 54.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(337): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(253): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Almohadas.php(84): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:33:55 --> include(img/rias.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Almohadas.php on line 84.
+ 1 APPPATH\Controllers\Almohadas.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(img/rias.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Almohadas.php', 84)
+ 2 APPPATH\Controllers\Almohadas.php(84): include()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 15:34:28 --> include(rias.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Almohadas.php on line 84.
+ 1 APPPATH\Controllers\Almohadas.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(rias.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Almohadas.php', 84)
+ 2 APPPATH\Controllers\Almohadas.php(84): include()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-15 16:31:57 --> include(rias.jpg): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Almohadas.php on line 84.
+ 1 APPPATH\Controllers\Almohadas.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(rias.jpg): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Almohadas.php', 84)
+ 2 APPPATH\Controllers\Almohadas.php(84): include()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Almohadas->nosotros()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Almohadas))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
